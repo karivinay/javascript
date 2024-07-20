@@ -23,7 +23,12 @@
 // let fullName = name.toUpperCase();
 // console.log(fullName);
 
-let fullName = prompt("enter you full name with out spaces");
-let userName = "@"+fullName + fullName.length;
-console.log(userName);
+// let fullName = prompt("enter you full name with out spaces");
+// let userName = "@"+fullName + fullName.length;
+// console.log(userName);
+
+// let h2 = document.querySelector("h2");
+// console.dir(h2.innerText);
+// h2.innerText = h2.innerText + " from apna college students"
+
 
