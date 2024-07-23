@@ -32,3 +32,10 @@
 // h2.innerText = h2.innerText + " from apna college students"
 
 
+console.log("one");
+console.log("two");
+setTimeout(() => {
+    console.log("hello");
+}, 4000);
+console.log("three");
+console.log("four")
