@@ -5,18 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slidder</title>
     <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
-<div class="container">
-    <div class="slider-wapper">
-        <div class="card-list">
-            <div class="card-item">
-                <img src="images/slider1.jpg"  class="user-image">
-                <h2 class="user-name">steve rogers</h2>
-                <p class="user-power">Captain America</p>
-                <button class="message-button">Message</button>
+<div class="container swiper">
+    <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper"> 
+            
+            <div class="card-item swiper-slide">
+               <div class="character">
+                 <img src="images/slider1.jpg"  class="user-image">
+                 <h2 class="user-name">Chris Evans</h2>
+                 <p class="user-power">Captain America</p>
+                 <button class="message-button">Connect</button>
+               </div>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider2.jpg"  class="user-image">
+                <h2 class="user-name">Robert Downey Jr.</h2>
+                <p class="user-power">Iron Man</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider3.jpeg"  class="user-image">
+                <h2 class="user-name">Mark Ruffalo</h2>
+                <p class="user-power">Hulk</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider4.jpeg"  class="user-image">
+                <h2 class="user-name">Chris Hemsworth</h2>
+                <p class="user-power">Thor</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider5.jpeg"  class="user-image">
+                <h2 class="user-name">Jeremy Renner</h2>
+                <p class="user-power">Hawkeye</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider6.jpeg"  class="user-image">
+                <h2 class="user-name">Tom Hiddleston</h2>
+                <p class="user-power">Loki</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider7.jpeg"  class="user-image">
+                <h2 class="user-name">Scarlett Johansson</h2>
+                <p class="user-power">Black Widow</p>
+                <button class="message-button">Connect</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="images/slider8.jpeg"  class="user-image">
+                <h2 class="user-name">Benedict Cumberbatch</h2>
+                <p class="user-power">Dr.Strange</p>
+                <button class="message-button">Connect</button>
             </div>
         </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+
     </div>
 </div>
 
@@ -26,6 +85,8 @@
 
 
 
- <script src="slidder.js"></script>   
+   
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="slidder.js"></script>  
 </body>
 </html>
