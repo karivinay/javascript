@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="pagination.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pagination">
+            <button class="btn1" onclick="backBtn()"><i class="fa-solid fa-arrow-left"></i>prev</button>
+            <ul>
+               <a href="pagination.html"><li class="link active" value="1" onclick="activeLink()">1</li></a>
+               <a href="page2.html"><li class="link" value="2" onclick="activeLink()">2</li></a>
+              <a href="page3.html"><li class="link" value="3" onclick="activeLink()">3</li></a>
+            </ul>
+           <button class="btn2" onclick="nextBtn()">next<i class="fa-solid fa-arrow-right"></i></button>
+        
+        </div>
+    </div>
+
+
+   <script src="pagination.js"></script> 
+</body>
+</html>
