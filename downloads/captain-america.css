@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/slider_background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.captain-america img{
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px white);
+}
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 5px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 27px;
+    right: 70px;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  .backBtn{
+    background-color: rgb(108, 108, 77);
+    color: white;
+    padding: 5px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
+    font-size: 20px;
+    position: absolute;
+    top: 27px;
+    left: 70px;
+    border: none;
+}
+
+.backBtn:hover {
+    border: 2px solid white;
+  }
